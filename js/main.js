@@ -3,7 +3,7 @@
  * Vanilla JS only. No external dependencies.
  * Handles all site interactivity for the static HTML site.
  *
- * Phone: (870) 555-0147 | tel:8705550147
+ * Phone: (870) 771-3364 | tel:8707713364
  * Contact: /contact.html
  */
 (function () {
