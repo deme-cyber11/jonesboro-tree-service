@@ -1153,3 +1153,92 @@ p { margin-bottom: 1rem; }
   height: 1.5rem;
   filter: brightness(0) saturate(100%) invert(27%) sepia(45%) saturate(600%) hue-rotate(85deg); /* primary green */
 }
+
+/* ── Gallery / Recent Work ──────────────────────────────────────────────── */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 48px;
+}
+.gallery-item {
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.gallery-item:hover img { transform: scale(1.04); }
+.gallery-item.wide {
+  grid-column: span 2;
+}
+.gallery-ba-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  padding-top: 8px;
+  border-top: 2px solid var(--primary);
+  display: inline-block;
+}
+.gallery-ba {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.ba-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+.ba-item {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.ba-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.ba-item:hover img { transform: scale(1.04); }
+.ba-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.ba-label.before {
+  background: rgba(180, 30, 30, 0.88);
+  color: #fff;
+}
+.ba-label.after {
+  background: rgba(46, 92, 30, 0.88);
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
+  .gallery-item.wide { grid-column: span 2; }
+  .gallery-ba { grid-template-columns: 1fr; }
+  .ba-pair { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
+  .ba-pair { grid-template-columns: 1fr 1fr; }
+}
