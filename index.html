@@ -512,5 +512,24 @@
     });
   });
   </script>
+  <script>
+  // Gallery lightbox
+  (function(){
+    var imgs = document.querySelectorAll('.gallery-item img');
+    if(!imgs.length) return;
+    var overlay = document.createElement('div');
+    overlay.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;cursor:zoom-out;align-items:center;justify-content:center;';
+    var img = document.createElement('img');
+    img.style.cssText = 'max-width:92vw;max-height:92vh;object-fit:contain;border-radius:8px;box-shadow:0 8px 40px rgba(0,0,0,0.6);';
+    overlay.appendChild(img);
+    document.body.appendChild(overlay);
+    imgs.forEach(function(i){
+      i.style.cursor = 'zoom-in';
+      i.addEventListener('click', function(){ img.src = i.src; overlay.style.display = 'flex'; });
+    });
+    overlay.addEventListener('click', function(){ overlay.style.display = 'none'; });
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') overlay.style.display='none'; });
+  })();
+  </script>
 </body>
 </html>
