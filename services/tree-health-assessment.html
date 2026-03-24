@@ -277,7 +277,12 @@
       <div class="footer-bottom"><p>&copy; 2026 Jonesboro Tree Pros. All rights reserved. | <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p></div>
     </div>
   </footer>
-  <div class="mobile-cta-bar"><a href="tel:8707713364" class="cta-call">Call Now</a><a href="../contact.html" class="cta-estimate">Free Estimate</a></div>
+  <div class="mobile-cta" id="mobile-cta">
+  <div style="display:flex;gap:10px;">
+    <a href="tel:+18707713364" style="flex:1;text-align:center;padding:13px 8px;border-radius:6px;font-weight:700;font-size:.95rem;text-decoration:none;background:var(--accent,#e63946);color:#fff;">&#128222; Call Now</a>
+    <a href="../contact.html" style="flex:1;text-align:center;padding:13px 8px;border-radius:6px;font-weight:700;font-size:.95rem;text-decoration:none;background:#fff;color:var(--primary,#1a3a5c);border:2px solid var(--primary,#1a3a5c);">&#128467; Free Quote</a>
+  </div>
+</div>
   <script>
 const nav=document.getElementById('nav');window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>50)});const hamburger=document.getElementById('hamburger');const mobileNav=document.getElementById('mobileNav');hamburger.addEventListener('click',()=>{hamburger.classList.toggle('active');mobileNav.classList.toggle('active');document.body.style.overflow=mobileNav.classList.contains('active')?'hidden':''});document.querySelectorAll('.faq-question').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const answer=item.querySelector('.faq-answer');const isActive=item.classList.contains('active');document.querySelectorAll('.faq-item').forEach(i=>{i.classList.remove('active');i.querySelector('.faq-answer').style.maxHeight=null});if(!isActive){item.classList.add('active');answer.style.maxHeight=answer.scrollHeight+'px'}})});
   </script>
