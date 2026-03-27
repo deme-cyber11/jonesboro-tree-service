@@ -1,9 +1,8 @@
 {
-  "_build_pass": "1 — Brief Lock",
+  "_build_pass": "1 \u2014 Brief Lock",
   "_built_by": "Icarus via build-pipeline skill",
   "_date": "2026-03-18",
   "_note": "Full rebuild. Previous build skipped this step entirely. This is the canonical source of truth for every design + content decision.",
-
   "site": {
     "business_name": "Jonesboro Tree Pros",
     "domain": "jonesborotreepros.com",
@@ -18,10 +17,9 @@
     "phone_digits": "8707713364",
     "email": "contact@jonesborotreepros.com",
     "years_in_business": "12",
-    "tagline": "Jonesboro's Trusted Tree Experts — Licensed, Local & On Call 24/7",
+    "tagline": "Jonesboro's Trusted Tree Experts \u2014 Licensed, Local & On Call 24/7",
     "web3forms_key": "0219881f-13e5-4175-b720-517b8d10c028"
   },
-
   "seo": {
     "primary_keyword": "tree service jonesboro ar",
     "search_volume": 400,
@@ -29,7 +27,7 @@
     "cpc": 7.19,
     "rental_tier": "$150/mo",
     "title_tag": "Tree Service Jonesboro AR | Removal, Trimming & Emergency | Jonesboro Tree Pros",
-    "meta_description": "Jonesboro's top-rated tree service. Licensed arborists for tree removal, trimming, stump grinding & 24/7 emergency response. Serving Craighead County. Free estimates — call (870) 771-3364.",
+    "meta_description": "Jonesboro's top-rated tree service. Licensed arborists for tree removal, trimming, stump grinding & 24/7 emergency response. Serving Craighead County. Free estimates \u2014 call (870) 771-3364.",
     "h1": "Jonesboro's Trusted Tree Service Experts",
     "h2": "Licensed Arborists Serving Jonesboro, AR & Surrounding Communities",
     "geo_coordinates": {
@@ -37,10 +35,9 @@
       "lng": "-90.7043"
     }
   },
-
   "design": {
     "palette_name": "forest-violet",
-    "concept": "Crowley's Ridge at dusk — deep forest canopy meets evening sky. Authoritative, natural, distinctive. NOT the typical green+amber tree service look.",
+    "concept": "Crowley's Ridge at dusk \u2014 deep forest canopy meets evening sky. Authoritative, natural, distinctive. NOT the typical green+amber tree service look.",
     "primary": "#2e5c1e",
     "primary_light": "#3d7228",
     "secondary": "#1e3e14",
@@ -59,12 +56,11 @@
     "palette_registry_checked": true,
     "unique_confirmed": true,
     "_palette_verification": {
-      "primary_check": "#2e5c1e verified against all 13 used_primaries — min diff is G=46 vs Spokane #1a2e1a (passes 30-channel rule)",
-      "accent_check": "#6b5b95 hue ~257deg — open zone 244-330deg, min 47deg from nearest used accent #1a8cff at 210deg",
-      "fonts_check": "Lexend + Rubik — neither in used_fonts_display or used_fonts_body"
+      "primary_check": "#2e5c1e verified against all 13 used_primaries \u2014 min diff is G=46 vs Spokane #1a2e1a (passes 30-channel rule)",
+      "accent_check": "#6b5b95 hue ~257deg \u2014 open zone 244-330deg, min 47deg from nearest used accent #1a8cff at 210deg",
+      "fonts_check": "Lexend + Rubik \u2014 neither in used_fonts_display or used_fonts_body"
     }
   },
-
   "trust_signals": [
     "Licensed & Insured in Arkansas",
     "ISA Certified Arborists",
@@ -72,59 +68,106 @@
     "Free Estimates",
     "12 Years Serving Jonesboro"
   ],
-
   "services": [
     {
       "name": "Tree Removal",
       "slug": "tree-removal",
-      "price_range": "$400–$2,500",
+      "price_range": "$400\u2013$2,500",
       "description": "Safe, efficient removal of dead, diseased, or hazardous trees of all sizes. Includes full cleanup and haul-away."
     },
     {
       "name": "Tree Trimming & Pruning",
       "slug": "tree-trimming",
-      "price_range": "$200–$800",
+      "price_range": "$200\u2013$800",
       "description": "Shape, thin, and prune trees for health, clearance, and curb appeal. Crown reduction and canopy lifting available."
     },
     {
       "name": "Emergency Tree Service",
       "slug": "emergency-tree-service",
-      "price_range": "$500–$3,000",
+      "price_range": "$500\u2013$3,000",
       "description": "24/7 emergency response for storm damage, fallen trees, and urgent hazards. We answer the phone when it matters most."
     },
     {
       "name": "Stump Grinding",
       "slug": "stump-grinding",
-      "price_range": "$150–$500",
+      "price_range": "$150\u2013$500",
       "description": "Complete stump removal below grade using professional grinding equipment. Reclaim your yard."
     },
     {
       "name": "Tree Health Assessment",
       "slug": "tree-health-assessment",
-      "price_range": "$100–$300",
+      "price_range": "$100\u2013$300",
       "description": "ISA-certified arborist evaluation for disease, pest damage, structural risk, and long-term health planning."
     },
     {
       "name": "Land Clearing",
       "slug": "land-clearing",
-      "price_range": "$1,000–$10,000",
+      "price_range": "$1,000\u2013$10,000",
       "description": "Full lot and acreage clearing for construction, farming, or landscape renovation. Timber handling included."
     }
   ],
-
   "service_areas": [
-    {"city": "Jonesboro", "slug": "jonesboro", "county": "Craighead", "miles_from_primary": "0"},
-    {"city": "Paragould", "slug": "paragould", "county": "Greene", "miles_from_primary": "22"},
-    {"city": "Marion", "slug": "marion", "county": "Crittenden", "miles_from_primary": "58"},
-    {"city": "West Memphis", "slug": "west-memphis", "county": "Crittenden", "miles_from_primary": "70"},
-    {"city": "Batesville", "slug": "batesville", "county": "Independence", "miles_from_primary": "55"},
-    {"city": "Searcy", "slug": "searcy", "county": "White", "miles_from_primary": "95"},
-    {"city": "Forrest City", "slug": "forrest-city", "county": "St. Francis", "miles_from_primary": "55"},
-    {"city": "Lake City", "slug": "lake-city", "county": "Craighead", "miles_from_primary": "12"},
-    {"city": "Trumann", "slug": "trumann", "county": "Poinsett", "miles_from_primary": "17"},
-    {"city": "Brookland", "slug": "brookland", "county": "Craighead", "miles_from_primary": "8"}
+    {
+      "city": "Jonesboro",
+      "slug": "jonesboro",
+      "county": "Craighead",
+      "miles_from_primary": "0"
+    },
+    {
+      "city": "Paragould",
+      "slug": "paragould",
+      "county": "Greene",
+      "miles_from_primary": "22"
+    },
+    {
+      "city": "Marion",
+      "slug": "marion",
+      "county": "Crittenden",
+      "miles_from_primary": "58"
+    },
+    {
+      "city": "West Memphis",
+      "slug": "west-memphis",
+      "county": "Crittenden",
+      "miles_from_primary": "70"
+    },
+    {
+      "city": "Batesville",
+      "slug": "batesville",
+      "county": "Independence",
+      "miles_from_primary": "55"
+    },
+    {
+      "city": "Searcy",
+      "slug": "searcy",
+      "county": "White",
+      "miles_from_primary": "95"
+    },
+    {
+      "city": "Forrest City",
+      "slug": "forrest-city",
+      "county": "St. Francis",
+      "miles_from_primary": "55"
+    },
+    {
+      "city": "Lake City",
+      "slug": "lake-city",
+      "county": "Craighead",
+      "miles_from_primary": "12"
+    },
+    {
+      "city": "Trumann",
+      "slug": "trumann",
+      "county": "Poinsett",
+      "miles_from_primary": "17"
+    },
+    {
+      "city": "Brookland",
+      "slug": "brookland",
+      "county": "Craighead",
+      "miles_from_primary": "8"
+    }
   ],
-
   "testimonials": [
     {
       "author": "Michael T.",
@@ -156,7 +199,7 @@
       "city": "Lake City",
       "service": "Tree Health Assessment",
       "rating": 5,
-      "text": "My silver maple was losing leaves early and I was worried. The arborist diagnosed a fungal issue immediately and walked me through treatment options. Didn't try to upsell me on removal — just gave me honest advice. That's rare."
+      "text": "My silver maple was losing leaves early and I was worried. The arborist diagnosed a fungal issue immediately and walked me through treatment options. Didn't try to upsell me on removal \u2014 just gave me honest advice. That's rare."
     },
     {
       "author": "Randy B.",
@@ -175,15 +218,14 @@
       "text": "After the ice storm last January, a massive pine cracked and landed on my porch roof. They were the only company that answered on a Sunday. Professional, fast, and the price was completely reasonable given it was an emergency. Saved my roof from further damage."
     }
   ],
-
   "faqs": [
     {
       "question": "How much does tree removal cost in Jonesboro, AR?",
-      "answer": "Tree removal in Jonesboro typically ranges from $400 to $2,500 depending on tree size, location, and accessibility. Small trees under 30 feet average $400–$700. Large oaks or pines over 60 feet range from $1,200–$2,500. We offer free on-site estimates with no obligation."
+      "answer": "Tree removal in Jonesboro typically ranges from $400 to $2,500 depending on tree size, location, and accessibility. Small trees under 30 feet average $400\u2013$700. Large oaks or pines over 60 feet range from $1,200\u2013$2,500. We offer free on-site estimates with no obligation."
     },
     {
       "question": "Do you offer emergency tree service?",
-      "answer": "Yes — we provide 24/7 emergency tree service throughout Jonesboro and Craighead County. Storm damage, fallen trees blocking driveways or damaging structures, and urgent hazard removal are all handled around the clock. Call us anytime at (870) 771-3364."
+      "answer": "Yes \u2014 we provide 24/7 emergency tree service throughout Jonesboro and Craighead County. Storm damage, fallen trees blocking driveways or damaging structures, and urgent hazard removal are all handled around the clock. Call us anytime at (870) 771-3364."
     },
     {
       "question": "Are you licensed and insured in Arkansas?",
@@ -191,18 +233,17 @@
     },
     {
       "question": "What areas do you serve?",
-      "answer": "We serve Jonesboro and the surrounding region including Paragould, Lake City, Brookland, Trumann, Forrest City, Marion, West Memphis, and Batesville. If you're within 100 miles of Jonesboro, give us a call — we may be able to help."
+      "answer": "We serve Jonesboro and the surrounding region including Paragould, Lake City, Brookland, Trumann, Forrest City, Marion, West Memphis, and Batesville. If you're within 100 miles of Jonesboro, give us a call \u2014 we may be able to help."
     },
     {
       "question": "How do I know if a tree needs to be removed vs. trimmed?",
-      "answer": "Signs a tree needs removal: more than 50% of the canopy is dead or damaged, the trunk is hollow or severely cracked, it's leaning toward a structure, or it has a serious root disease. Our ISA-certified arborists can assess any tree and give you an honest recommendation — we won't push removal if trimming or treatment is the right call."
+      "answer": "Signs a tree needs removal: more than 50% of the canopy is dead or damaged, the trunk is hollow or severely cracked, it's leaning toward a structure, or it has a serious root disease. Our ISA-certified arborists can assess any tree and give you an honest recommendation \u2014 we won't push removal if trimming or treatment is the right call."
     },
     {
       "question": "Do you clean up after tree removal?",
-      "answer": "Yes, always. Every job includes full debris cleanup and haul-away. We leave your property cleaner than we found it — no branches, no sawdust piles, no logs left behind unless you specifically want firewood."
+      "answer": "Yes, always. Every job includes full debris cleanup and haul-away. We leave your property cleaner than we found it \u2014 no branches, no sawdust piles, no logs left behind unless you specifically want firewood."
     }
   ],
-
   "pages": {
     "root": [
       "index.html",
@@ -246,7 +287,6 @@
       "blog/storm-damage-tree-cleanup-jonesboro.html"
     ]
   },
-
   "build": {
     "github_repo": "jonesboro-tree-service",
     "github_org": "deme-cyber11",
@@ -257,7 +297,7 @@
     "started": "2026-03-18",
     "completed": "",
     "qa_passed": false,
-    "qa_errors": 0,
+    "qa_errors": 1,
     "committed": false,
     "domain_registered": false,
     "deployed": false,
