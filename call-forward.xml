@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-  <Say>Connecting you now. Please hold.</Say>
-  <Dial callerId="+18707713364" timeout="30">
-    <Number url="https://lead-manager-api.irontigerdigital.workers.dev/webhook/whisper?site=Jonesboro%20Tree%20Pros">+17344761457</Number>
-  </Dial>
-  <Say>We're sorry, no one is available right now. Please try again later.</Say>
-  <Hangup/>
-</Response>

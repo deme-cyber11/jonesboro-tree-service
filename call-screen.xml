@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-  <Gather numDigits="1" action="https://jonesborotreepros.com/call-forward.xml" method="GET" timeout="8">
-    <Say>Thank you for calling Jonesboro Tree Pros. To speak with our team, please press 1.</Say>
-  </Gather>
-  <Say>We didn't receive a response. If you need assistance, please call back and press 1 when prompted. Goodbye.</Say>
-  <Hangup/>
-</Response>
