@@ -4,8 +4,8 @@
   "_date": "2026-03-18",
   "_note": "Full rebuild. Previous build skipped this step entirely. This is the canonical source of truth for every design + content decision.",
   "site": {
-    "business_name": "Jonesboro Tree Pros",
-    "domain": "jonesborotreepros.com",
+    "business_name": "Delta Tree Doctors",
+    "domain": "deltatreedoctors.com",
     "niche": "Tree Service",
     "niche_slug": "tree-service",
     "city": "Jonesboro",
@@ -15,9 +15,9 @@
     "phone": "(870) 771-3364",
     "phone_formatted": "(870) 771-3364",
     "phone_digits": "8707713364",
-    "email": "contact@jonesborotreepros.com",
+    "email": "contact@deltatreedoctors.com",
     "years_in_business": "12",
-    "tagline": "Jonesboro's Trusted Tree Experts \u2014 Licensed, Local & On Call 24/7",
+    "tagline": "Delta Tree Doctors — Jonesboro’s Trusted Arborists \u2014 Licensed, Local & On Call 24/7",
     "web3forms_key": "0219881f-13e5-4175-b720-517b8d10c028"
   },
   "seo": {
@@ -26,7 +26,7 @@
     "keyword_difficulty": 13,
     "cpc": 7.19,
     "rental_tier": "$150/mo",
-    "title_tag": "Tree Service Jonesboro AR | Removal, Trimming & Emergency | Jonesboro Tree Pros",
+    "title_tag": "Tree Service Jonesboro AR | Removal, Trimming & Emergency | Delta Tree Doctors",
     "meta_description": "Jonesboro's top-rated tree service. Licensed arborists for tree removal, trimming, stump grinding & 24/7 emergency response. Serving Craighead County. Free estimates \u2014 call (870) 771-3364.",
     "h1": "Jonesboro's Trusted Tree Service Experts",
     "h2": "Licensed Arborists Serving Jonesboro, AR & Surrounding Communities",
@@ -175,7 +175,7 @@
       "city": "Jonesboro",
       "service": "Tree Removal",
       "rating": 5,
-      "text": "A huge oak fell on my fence during the storm. Called Jonesboro Tree Pros at 11pm and they had a crew out by 7am. Unbelievable response time. Fence was cleared before I had to go to work. These guys are the real deal."
+      "text": "A huge oak fell on my fence during the storm. Called Delta Tree Doctors at 11pm and they had a crew out by 7am. Unbelievable response time. Fence was cleared before I had to go to work. These guys are the real deal."
     },
     {
       "author": "Sandra K.",
@@ -229,7 +229,7 @@
     },
     {
       "question": "Are you licensed and insured in Arkansas?",
-      "answer": "Yes. Jonesboro Tree Pros is fully licensed to operate in Arkansas and carries comprehensive general liability and workers' compensation insurance. We can provide proof of insurance upon request before any work begins."
+      "answer": "Yes. Delta Tree Doctors is fully licensed to operate in Arkansas and carries comprehensive general liability and workers' compensation insurance. We can provide proof of insurance upon request before any work begins."
     },
     {
       "question": "What areas do you serve?",
