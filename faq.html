@@ -29,6 +29,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.v1.css">
+    <link rel="stylesheet" href="/css/style.v2.5.css">
+    <link rel="stylesheet" href="/css/site-theme.css">
 
   <!-- FAQPage Schema -->
   <script type="application/ld+json">
@@ -162,7 +164,7 @@
         <div class="section__header">
           <h2 class="section__title">Tree Service Questions</h2>
           <p class="section__subtitle">Everything you need to know about working with Delta Tree Doctors.</p>
-<img src="/images/r5-svc-tree-removal.webp" alt="Tree service — Faq" loading="lazy" data-placeholder="recycled" style="width:100%;height:auto;border-radius:8px;margin:24px 0;display:block;" width="800" height="533">
+<img src="/images/r5-svc-tree-removal.webp" alt="Tree removal FAQ — Jonesboro AR" loading="lazy" style="width:100%;height:auto;border-radius:8px;margin:24px 0;display:block;" width="800" height="533">
 
         </div>
         <div class="faq-list">
@@ -368,5 +370,16 @@
       });
     })();
   </script>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  if(!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }});
+  },{threshold:0.1});
+  document.querySelectorAll('.reveal,.feature-card,.service-card,.why__item,.process__card,.testimonial-card,.area-card').forEach(function(el){ io.observe(el); });
+})();
+</script>
 </body>
 </html>

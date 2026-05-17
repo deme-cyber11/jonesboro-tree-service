@@ -25,6 +25,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.v1.css">
+    <link rel="stylesheet" href="/css/style.v2.5.css">
+    <link rel="stylesheet" href="/css/site-theme.css">
 
   <script type="application/ld+json">
   {
@@ -381,5 +383,16 @@
 })();
 </script>
 
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  if(!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); }});
+  },{threshold:0.1});
+  document.querySelectorAll('.reveal,.feature-card,.service-card,.why__item,.process__card,.testimonial-card,.area-card').forEach(function(el){ io.observe(el); });
+})();
+</script>
 </body>
 </html>
