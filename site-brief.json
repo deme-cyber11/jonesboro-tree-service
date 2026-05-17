@@ -297,7 +297,7 @@
     "started": "2026-03-18",
     "completed": "",
     "qa_passed": false,
-    "qa_errors": 5,
+    "qa_errors": 1,
     "committed": false,
     "domain_registered": false,
     "deployed": false,

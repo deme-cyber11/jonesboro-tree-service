@@ -2020,3 +2020,11 @@ section[style*="--color-white"] .section-subtitle { color: var(--color-text-ligh
   .contact-grid > * { min-width: 0; }
   .contact-info-item > div { min-width: 0; overflow-wrap: break-word; }
 }
+
+/* VISIBILITY SAFETY NET — ensures reveal elements become visible even if IntersectionObserver fails */
+@keyframes visibility-fallback {
+  to { opacity: 1; transform: translateY(0); }
+}
+html.js .reveal:not(.visible) {
+  animation: visibility-fallback 0.5s 2s forwards;
+}
